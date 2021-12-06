@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  /*  font-family: Helvetica; */
+  background-color: #000000;
+}
+.container {
+  max-width: 500px;
+  max-height: 750;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* box-shadow: 5px 5px 5px 5px grey; */
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Oswald';
+  font-size: 60px;
+  /* padding: 20px; */
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Oswald';
+  font-weight: 100;
+  /* padding: 20px; */
+}
+
+#Opciones {
+  text-align: center;
+  width: auto;
+}
+
+#Opciones img {
+  width: 30%;
+}
+
+#Resultado {
+  text-align: center;
+  color: gold;
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0px 0px 10px 0px;
+}
+
+#group-btn {
+  display: flex;
+  width: 100%;
+}
+
+#group-btn button img {
+  width: 100%;
+}
+
+button {
+  border: 2px solid #58595b;
+}
+
+#Elije {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-size: 20px;
+  padding: 0px 0px 10px 0px;
+}
+
+footer {
+  text-decoration: none;
+  background-color: purple;
+}
